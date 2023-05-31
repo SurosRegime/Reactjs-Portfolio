@@ -5,6 +5,7 @@ import './Header.css';
 function Header() {
   return (
     <header>
+      <h5>Hello, I'm</h5>
       <h1>Ephrain R</h1>
       <nav>
         <NavLink exact to="/" activeClassName="active">About Me</NavLink>
